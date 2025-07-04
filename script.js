@@ -37,7 +37,7 @@ function endGame() {
 
 document.querySelectorAll("button").forEach((button) => {
   button.addEventListener("click", () => {
-    let output = document.getElementById("output");
+    let output = document.querySelector("#output");
 
     const humanSelection = button.id;
     const computerSelection = getComputerChoice();
