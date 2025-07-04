@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+    <style>
+        button {
+            margin: 10px;
+            width: 100px;
+            height: 30px;
+        }
+    </style>
 </head>
 <body>
-    Welcome to the Rock Paper Scissors Game!
+    <h1>Rock Paper Scissors Game</h1>
+    <span id="choices">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </span>
+    <div id="output"></div>
 </body>
 </html>
